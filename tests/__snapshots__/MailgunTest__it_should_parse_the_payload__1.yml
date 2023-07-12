@@ -1,0 +1,17 @@
+id: 20120726154307.29852.44460@definebox.com
+date: '2012-07-26T15:43:07+00:00'
+text: null
+textVisible: ''
+html: null
+subject: null
+from:
+    name: ''
+    mail: bob@bob-mg
+to: {  }
+cc: {  }
+bcc: {  }
+attachments:
+    - { type: application/json, name: null, content: '{"description": "klizhentas"}' }
+    - { type: message/rfc822, name: null, content: "Date: Thu, 26 Jul 2012 19:42:55 +0400\nTo: %recipient.description% <support@mailgunhq.com>\nFrom: bob@bob-mg\nSubject: (rackspace) Hello\n MSK 2012 support@mailgunhq.com %recipient.description%\nMessage-Id: <20120726154302.29322.40670@definebox.com>\n\nsupport@mailgunhq.com %recipient.description%\n" }
+body: null
+valid: false

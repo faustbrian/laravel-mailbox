@@ -1,0 +1,16 @@
+id: 484810298443-112311-xqxbby@mail.there.com
+date: '2016-07-04T15:53:14+01:00'
+text: "Hi there SparkPostians.\r\n"
+textVisible: 'Hi there SparkPostians.'
+html: "<p>Hi there <strong>SparkPostians</strong></p>\r\n"
+subject: 'Relay webhooks rawk!'
+from:
+    name: ''
+    mail: me@here.com
+to:
+    - { name: null, mail: you@there.com }
+cc: {  }
+bcc: {  }
+attachments: {  }
+body: "<p>Hi there <strong>SparkPostians</strong></p>\r\n"
+valid: true

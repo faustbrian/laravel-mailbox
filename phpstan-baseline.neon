@@ -1,0 +1,416 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Class BombenProdukt\\\\Mailbox\\\\Data\\\\Address implements generic interface Illuminate\\\\Contracts\\\\Support\\\\Arrayable but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Data/Address.php
+
+		-
+			message: "#^Class BombenProdukt\\\\Mailbox\\\\Data\\\\Attachment implements generic interface Illuminate\\\\Contracts\\\\Support\\\\Arrayable but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Data/Attachment.php
+
+		-
+			message: "#^Class BombenProdukt\\\\Mailbox\\\\Data\\\\Header implements generic interface Illuminate\\\\Contracts\\\\Support\\\\Arrayable but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Data/Header.php
+
+		-
+			message: "#^Class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail implements generic interface Illuminate\\\\Contracts\\\\Support\\\\Arrayable but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Data/Mail.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Mailbox\\\\Data\\\\Mail\\:\\:getAttachments\\(\\) should return array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Attachment\\> but returns array\\<ZBateson\\\\MailMimeParser\\\\Message\\\\MessagePart\\>\\.$#"
+			count: 1
+			path: src/Data/Mail.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Mailbox\\\\Data\\\\Mail\\:\\:getBcc\\(\\) should return array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> but returns array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>\\.$#"
+			count: 1
+			path: src/Data/Mail.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Mailbox\\\\Data\\\\Mail\\:\\:getCc\\(\\) should return array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> but returns array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>\\.$#"
+			count: 1
+			path: src/Data/Mail.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Mailbox\\\\Data\\\\Mail\\:\\:getHeader\\(\\) should return string\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/Data/Mail.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Mailbox\\\\Data\\\\Mail\\:\\:getTo\\(\\) should return array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> but returns array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>\\.$#"
+			count: 1
+			path: src/Data/Mail.php
+
+		-
+			message: "#^Parameter \\#1 \\$header of method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:mapAddresses\\(\\) expects ZBateson\\\\MailMimeParser\\\\Header\\\\AddressHeader\\|null, ZBateson\\\\MailMimeParser\\\\Header\\\\IHeader\\|null given\\.$#"
+			count: 3
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromMessage\\(\\) expects ZBateson\\\\MailMimeParser\\\\Message, ZBateson\\\\MailMimeParser\\\\IMessage given\\.$#"
+			count: 1
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Parameter \\#1 \\$text of static method EmailReplyParser\\\\EmailReplyParser\\:\\:parseReply\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Parameter \\$attachments of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Message\\\\MessagePart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Attachment\\> given\\.$#"
+			count: 1
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Parameter \\$bcc of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Parameter \\$cc of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Parameter \\$date of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects Carbon\\\\Carbon, Carbon\\\\Carbon\\|null given\\.$#"
+			count: 1
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Parameter \\$id of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Parameter \\$to of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Binary operation \"\\.\" between 'mailbox\\.connections\\.' and object\\|string\\|null results in an error\\.$#"
+			count: 1
+			path: src/Driver/AbstractDriver.php
+
+		-
+			message: "#^Cannot access offset 'basic_auth' on mixed\\.$#"
+			count: 2
+			path: src/Driver/AbstractDriver.php
+
+		-
+			message: "#^Parameter \\#1 \\$credentials of method BombenProdukt\\\\Mailbox\\\\Driver\\\\AbstractDriver\\:\\:authorizeWithBasicAuth\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Driver/AbstractDriver.php
+
+		-
+			message: "#^Cannot access offset 'Message' on mixed\\.$#"
+			count: 1
+			path: src/Driver/AmazonSES.php
+
+		-
+			message: "#^Cannot access offset 'content' on mixed\\.$#"
+			count: 1
+			path: src/Driver/AmazonSES.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Mailbox\\\\Driver\\\\AmazonSES\\:\\:validator\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Driver/AmazonSES.php
+
+		-
+			message: "#^Parameter \\#1 \\$data of static method Illuminate\\\\Support\\\\Facades\\\\Validator\\:\\:make\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Driver/AmazonSES.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of function json_decode expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/AmazonSES.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/AmazonSES.php
+
+		-
+			message: "#^Parameter \\#1 \\$items of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Brevo\\:\\:mapAddresses\\(\\) expects array, mixed given\\.$#"
+			count: 3
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\#1 \\$items of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Brevo\\:\\:mapAttachments\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\#1 \\$items of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Brevo\\:\\:mapHeaders\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\#1 \\$text of static method EmailReplyParser\\\\EmailReplyParser\\:\\:parseReply\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$attachments of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Message\\\\MessagePart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Attachment\\> given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$bcc of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$cc of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$date of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects Carbon\\\\Carbon, Carbon\\\\Carbon\\|null given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$html of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$id of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$mail of class BombenProdukt\\\\Mailbox\\\\Data\\\\Address constructor expects string\\|null, mixed given\\.$#"
+			count: 2
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$name of class BombenProdukt\\\\Mailbox\\\\Data\\\\Address constructor expects string\\|null, mixed given\\.$#"
+			count: 2
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$subject of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$text of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\$to of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Driver/Brevo.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/MailCare.php
+
+		-
+			message: "#^Call to an undefined static method BombenProdukt\\\\Mailbox\\\\Data\\\\Mail\\:\\:fromString\\(\\)\\.$#"
+			count: 1
+			path: src/Driver/MailerSend.php
+
+		-
+			message: "#^Parameter \\#1 \\$known_string of function hash_equals expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailgun.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailgun.php
+
+		-
+			message: "#^Parameter \\#1 \\$timestamp of static method Carbon\\\\Carbon\\:\\:createFromTimestamp\\(\\) expects float\\|int\\|string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailgun.php
+
+		-
+			message: "#^Parameter \\#3 \\$key of function hash_hmac expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailgun.php
+
+		-
+			message: "#^Parameter \\#1 \\$items of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Mailjet\\:\\:mapAddresses\\(\\) expects string, mixed given\\.$#"
+			count: 3
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\#1 \\$items of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Mailjet\\:\\:mapHeaders\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\#1 \\$text of static method EmailReplyParser\\\\EmailReplyParser\\:\\:parseReply\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$bcc of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$cc of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$date of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects Carbon\\\\Carbon, Carbon\\\\Carbon\\|null given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$html of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$id of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$mail of class BombenProdukt\\\\Mailbox\\\\Data\\\\Address constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$name of class BombenProdukt\\\\Mailbox\\\\Data\\\\Address constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$subject of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$text of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\$to of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Mandrill.php
+
+		-
+			message: "#^Parameter \\#1 \\$attachments of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Postmark\\:\\:mapAttachments\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\#1 \\$items of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Postmark\\:\\:mapAddresses\\(\\) expects array, mixed given\\.$#"
+			count: 3
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\#1 \\$items of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Postmark\\:\\:mapHeaders\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\#1 \\$text of static method EmailReplyParser\\\\EmailReplyParser\\:\\:parseReply\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$attachments of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Message\\\\MessagePart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Attachment\\> given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$bcc of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$cc of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$date of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects Carbon\\\\Carbon, Carbon\\\\Carbon\\|null given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$html of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$id of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$mail of class BombenProdukt\\\\Mailbox\\\\Data\\\\Address constructor expects string\\|null, mixed given\\.$#"
+			count: 2
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$name of class BombenProdukt\\\\Mailbox\\\\Data\\\\Address constructor expects string\\|null, mixed given\\.$#"
+			count: 2
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$subject of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$text of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\$to of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects array\\<ZBateson\\\\MailMimeParser\\\\Header\\\\Part\\\\AddressPart\\>, array\\<BombenProdukt\\\\Mailbox\\\\Data\\\\Address\\> given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/SendGrid.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/SparkPost.php
+
+		-
+			message: "#^Parameter \\#1 \\$str of function base64_decode expects string, mixed given\\.$#"
+			count: 1
+			path: src/Driver/SparkPost.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Mailbox\\\\Http\\\\Controller\\\\WebhookController\\:\\:__invoke\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Http/Controller/WebhookController.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Mailbox\\\\Manager\\\\MailboxManager\\:\\:createConnection\\(\\) should return BombenProdukt\\\\Mailbox\\\\Driver\\\\DriverInterface but returns object\\.$#"
+			count: 1
+			path: src/Manager/MailboxManager.php

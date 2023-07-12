@@ -1,0 +1,28 @@
+Content-Type: multipart/mailgun-variables; boundary="8686cc907910484e9d21c54776cd791c"
+Mime-Version: 1.0
+From: bob@bob-mg
+Date: Thu, 26 Jul 2012 15:43:07 +0000
+Message-Id: <20120726154307.29852.44460@definebox.com>
+Sender: bob=bob-mg@definebox.com
+
+--8686cc907910484e9d21c54776cd791c
+Mime-Version: 1.0
+Content-Type: application/json
+Content-Transfer-Encoding: base64
+
+eyJkZXNjcmlwdGlvbiI6ICJrbGl6aGVudGFzIn0=
+
+--8686cc907910484e9d21c54776cd791c
+Content-Type: message/rfc822
+Mime-Version: 1.0
+
+Date: Thu, 26 Jul 2012 19:42:55 +0400
+To: %recipient.description% <support@mailgunhq.com>
+From: bob@bob-mg
+Subject: (rackspace) Hello
+ MSK 2012 support@mailgunhq.com %recipient.description%
+Message-Id: <20120726154302.29322.40670@definebox.com>
+
+support@mailgunhq.com %recipient.description%
+
+--8686cc907910484e9d21c54776cd791c--

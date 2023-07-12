@@ -1,0 +1,32 @@
+id: '<CAE5Zh0ZpHZ6G5DC+He5426a4RkVab7uWaTDwiMcHzOR=YB3urA@mail.gmail.com>'
+date: '2015-04-10T16:06:38+00:00'
+text: |
+    Hi,
+
+    Important notice: it's Friday. Friday *afternoon*, even!
+
+
+    Have a *great* weekend!
+    The Anonymous Friday Teller
+textVisible: |-
+    Hi,
+
+    Important notice: it's Friday. Friday *afternoon*, even!
+
+
+    Have a *great* weekend!
+    The Anonymous Friday Teller
+html: |
+    <div dir="ltr">Hi,<div><br></div><div>Important notice: it&#39;s Friday. Friday <i>afternoon</i>, even!</div><div><br><br></div><div>Have a <i style="font-weight:bold">great</i> weekend!</div><div>The Anonymous Friday Teller</div></div>
+subject: "Hey! It's Friday!"
+from:
+    name: 'Pilot <pilot@mailjet.com>'
+    mail: 'Pilot <pilot@mailjet.com>'
+to:
+    - { name: passenger@mailjet.com, mail: passenger@mailjet.com }
+cc: {  }
+bcc: {  }
+attachments: {  }
+body: |
+    <div dir="ltr">Hi,<div><br></div><div>Important notice: it&#39;s Friday. Friday <i>afternoon</i>, even!</div><div><br><br></div><div>Have a <i style="font-weight:bold">great</i> weekend!</div><div>The Anonymous Friday Teller</div></div>
+valid: true
