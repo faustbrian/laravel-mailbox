@@ -1,0 +1,21 @@
+id: 73e6d360-66eb-11e1-8e72-a8904824019b
+date: '2014-08-01T16:45:32-04:00'
+text: 'This is a test text body.'
+textVisible: 'This is a test text body.'
+html: '<html><body><p>This is a test html body.</p></body></html>'
+subject: 'Test subject'
+from:
+    name: 'Postmarkapp Support'
+    mail: support@postmarkapp.com
+to:
+    - { name: 'Firstname Lastname', mail: yourhash+SampleHash@inbound.postmarkapp.com }
+cc:
+    - { name: 'First Cc', mail: firstcc@postmarkapp.com }
+    - { name: null, mail: secondCc@postmarkapp.com }
+bcc:
+    - { name: 'First Bcc', mail: firstbcc@postmarkapp.com }
+    - { name: null, mail: secondbcc@postmarkapp.com }
+attachments:
+    - { type: text/plain, name: test.txt, content: VGhpcyBpcyBhdHRhY2htZW50IGNvbnRlbnRzLCBiYXNlLTY0IGVuY29kZWQu }
+body: '<html><body><p>This is a test html body.</p></body></html>'
+valid: true

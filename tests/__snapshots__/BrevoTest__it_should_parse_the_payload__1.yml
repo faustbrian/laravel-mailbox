@@ -1,0 +1,113 @@
+id: 1a825d56-029b-4a41-b8e4-61670463431b
+date: '2020-09-01T09:53:21+02:00'
+text: |
+    Hi Terry,
+    Nice to hear from you, I hope you're well.
+    Sure, our summer brochure is already out! I've attached it *together
+    with our winter brochure *⛄.
+
+    I've heard you're a massive fan of rubber ducks
+    <https://en.wikipedia.org/wiki/Rubber_duck_debugging>, so I wanted to share
+    with you this picture I took this summer. *Amazing, eh?*
+    [image: duck1.png]
+
+    Any questions (about the brochures, not the ducks), I'd be happy to help.
+
+    Speak soon,
+    *Antoine Lefeuvre*
+    Co-founder & Product Manager at MailClark <https://mailclark.ai>
+    antoine@mailclark.ai
+    Twitter <https://twitter.com/jiraisurfer> LinkedIn
+    <https://www.linkedin.com/in/lefeuvre>
+    *Sent with MailClark*
+
+
+    On Tue, 1 Sep 2020 at 09:43, Terry Estill <test@clubble.me> wrote:
+
+    > Hi there, I hope things with you are good.
+    >
+    > I was wondering whether your brochure for the summer next year was already
+    > available. I'm willing to start planning asap.
+    >
+    > Best,
+    > --
+    > *Terry Estill*—Cofounder & CEO
+    > *The Wheat Assembly - Le Club Blé*
+    > test@clubble.me
+    > www.clubble.me
+    >
+textVisible: |-
+    Hi Terry,
+    Nice to hear from you, I hope you're well.
+    Sure, our summer brochure is already out! I've attached it *together
+    with our winter brochure *⛄.
+
+    I've heard you're a massive fan of rubber ducks
+    <https://en.wikipedia.org/wiki/Rubber_duck_debugging>, so I wanted to share
+    with you this picture I took this summer. *Amazing, eh?*
+    [image: duck1.png]
+
+    Any questions (about the brochures, not the ducks), I'd be happy to help.
+
+    Speak soon,
+    *Antoine Lefeuvre*
+    Co-founder & Product Manager at MailClark <https://mailclark.ai>
+    antoine@mailclark.ai
+    Twitter <https://twitter.com/jiraisurfer> LinkedIn
+    <https://www.linkedin.com/in/lefeuvre>
+    *Sent with MailClark*
+html: |
+    <div dir="ltr">Hi Terry,<br>Nice to hear from you, I hope you&#39;re well.<br>Sure, our summer brochure is already out! I&#39;ve attached it <b>together with our winter brochure </b>⛄.<br><br>I&#39;ve heard you&#39;re a massive fan of <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber ducks</a>, so I wanted to share with you this picture I took this summer. <i>Amazing, eh?</i><div><div><img src="cid:ii_kejngtlh0" alt="duck1.png" width="294" height="196" style="margin-right: 0px;"><br></div><br>Any questions (about the brochures, not the ducks), I&#39;d be happy to help.<br><br>Speak soon,  <br clear="all"><div><div dir="ltr" class="gmail_signature" data-smartmail="gmail_signature"><div dir="ltr"><div><div dir="ltr"><div><div dir="ltr"><b>Antoine Lefeuvre</b><br>Co-founder &amp; Product Manager at <a href="https://mailclark.ai" target="_blank">MailClark</a><br><a href="mailto:antoine@mailclark.ai" target="_blank">antoine@mailclark.ai</a><br><a href="https://twitter.com/jiraisurfer" target="_blank">Twitter</a> <a href="https://www.linkedin.com/in/lefeuvre" target="_blank">LinkedIn</a><br><i>Sent with MailClark</i><br></div></div></div></div></div></div></div><br></div></div><br><div class="gmail_quote"><div dir="ltr" class="gmail_attr">On Tue, 1 Sep 2020 at 09:43, Terry Estill &lt;<a href="mailto:test@clubble.me">test@clubble.me</a>&gt; wrote:<br></div><blockquote class="gmail_quote" style="margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+      
+        
+      
+      <div bgcolor="#FFFFFF">
+        <p>Hi there, I hope things with you are good.<br>
+          <br>
+          I was wondering whether your brochure for the summer next year was
+          already available. I&#39;m willing to start planning asap.<br>
+          <br>
+          Best,<br>
+        </p>
+        <div>-- <br>
+          <strong>Terry Estill</strong>—Cofounder &amp; CEO<br>
+          <em>The Wheat Assembly - Le Club Blé</em><br>
+          <a href="mailto:test@clubble.me" target="_blank">test@clubble.me</a><br>
+          <a href="http://www.clubble.me" target="_blank">www.clubble.me</a></div>
+      </div>
+
+    </blockquote></div>
+subject: 'Re: Summer brochure 2021'
+from:
+    name: 'Antoine Lefeuvre'
+    mail: antoine@mailclark.ai
+to:
+    - { name: 'Terry Estill', mail: test@clubble.me }
+cc: {  }
+bcc: {  }
+attachments:
+    - { type: image/png, name: duck1.png, content: ii_kejngtlh0 }
+    - { type: application/pdf, name: summer2021.pdf, content: f_kejnjyug1 }
+    - { type: application/pdf, name: winter2020-2021.pdf, content: f_kejnjyv02 }
+body: |
+    <div dir="ltr">Hi Terry,<br>Nice to hear from you, I hope you&#39;re well.<br>Sure, our summer brochure is already out! I&#39;ve attached it <b>together with our winter brochure </b>⛄.<br><br>I&#39;ve heard you&#39;re a massive fan of <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber ducks</a>, so I wanted to share with you this picture I took this summer. <i>Amazing, eh?</i><div><div><img src="cid:ii_kejngtlh0" alt="duck1.png" width="294" height="196" style="margin-right: 0px;"><br></div><br>Any questions (about the brochures, not the ducks), I&#39;d be happy to help.<br><br>Speak soon,  <br clear="all"><div><div dir="ltr" class="gmail_signature" data-smartmail="gmail_signature"><div dir="ltr"><div><div dir="ltr"><div><div dir="ltr"><b>Antoine Lefeuvre</b><br>Co-founder &amp; Product Manager at <a href="https://mailclark.ai" target="_blank">MailClark</a><br><a href="mailto:antoine@mailclark.ai" target="_blank">antoine@mailclark.ai</a><br><a href="https://twitter.com/jiraisurfer" target="_blank">Twitter</a> <a href="https://www.linkedin.com/in/lefeuvre" target="_blank">LinkedIn</a><br><i>Sent with MailClark</i><br></div></div></div></div></div></div></div><br></div></div><br><div class="gmail_quote"><div dir="ltr" class="gmail_attr">On Tue, 1 Sep 2020 at 09:43, Terry Estill &lt;<a href="mailto:test@clubble.me">test@clubble.me</a>&gt; wrote:<br></div><blockquote class="gmail_quote" style="margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+      
+        
+      
+      <div bgcolor="#FFFFFF">
+        <p>Hi there, I hope things with you are good.<br>
+          <br>
+          I was wondering whether your brochure for the summer next year was
+          already available. I&#39;m willing to start planning asap.<br>
+          <br>
+          Best,<br>
+        </p>
+        <div>-- <br>
+          <strong>Terry Estill</strong>—Cofounder &amp; CEO<br>
+          <em>The Wheat Assembly - Le Club Blé</em><br>
+          <a href="mailto:test@clubble.me" target="_blank">test@clubble.me</a><br>
+          <a href="http://www.clubble.me" target="_blank">www.clubble.me</a></div>
+      </div>
+
+    </blockquote></div>
+valid: true
