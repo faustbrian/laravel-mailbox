@@ -21,7 +21,22 @@ parameters:
 			path: src/Data/Mail.php
 
 		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 2
+			path: src/Data/Mail.php
+
+		-
 			message: "#^Method BombenProdukt\\\\Mailbox\\\\Data\\\\Mail\\:\\:getHeader\\(\\) should return string\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/Data/Mail.php
+
+		-
+			message: "#^Only booleans are allowed in &&, string\\|null given on the right side\\.$#"
+			count: 1
+			path: src/Data/Mail.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between BombenProdukt\\\\Mailbox\\\\Data\\\\Address and '' will always evaluate to true\\.$#"
 			count: 1
 			path: src/Data/Mail.php
 
@@ -48,6 +63,11 @@ parameters:
 		-
 			message: "#^Parameter \\$id of class BombenProdukt\\\\Mailbox\\\\Data\\\\Mail constructor expects string, string\\|null given\\.$#"
 			count: 1
+			path: src/Data/MailParser.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 2
 			path: src/Data/MailParser.php
 
 		-
@@ -151,6 +171,11 @@ parameters:
 			path: src/Driver/Brevo.php
 
 		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 2
+			path: src/Driver/Brevo.php
+
+		-
 			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
 			count: 1
 			path: src/Driver/MailCare.php
@@ -179,6 +204,11 @@ parameters:
 			message: "#^Parameter \\#3 \\$key of function hash_hmac expects string, mixed given\\.$#"
 			count: 1
 			path: src/Driver/Mailgun.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/Driver/Mailjet.php
 
 		-
 			message: "#^Parameter \\#1 \\$items of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Mailjet\\:\\:mapAddresses\\(\\) expects string, mixed given\\.$#"
@@ -234,6 +264,11 @@ parameters:
 			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
 			count: 1
 			path: src/Driver/Mandrill.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, mixed given\\.$#"
+			count: 1
+			path: src/Driver/Postmark.php
 
 		-
 			message: "#^Parameter \\#1 \\$attachments of method BombenProdukt\\\\Mailbox\\\\Driver\\\\Postmark\\:\\:mapAttachments\\(\\) expects array, mixed given\\.$#"
@@ -296,9 +331,19 @@ parameters:
 			path: src/Driver/Postmark.php
 
 		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 2
+			path: src/Driver/Postmark.php
+
+		-
 			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
 			count: 1
 			path: src/Driver/SendGrid.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, mixed given\\.$#"
+			count: 1
+			path: src/Driver/SparkPost.php
 
 		-
 			message: "#^Parameter \\#1 \\$message of static method BombenProdukt\\\\Mailbox\\\\Data\\\\MailParser\\:\\:fromString\\(\\) expects string, mixed given\\.$#"
